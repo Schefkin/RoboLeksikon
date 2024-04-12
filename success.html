@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&family=Raleway:wght@800&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/sub-navbar.css">
+
+
+    <title>RoboLeksikon</title>
+</head>
+
+<body>
+    <header>
+        <div class="sub-header">
+            <nav>
+                <a href="/index.html">
+                    <img src="https://res.cloudinary.com/dd9trxmnc/image/upload/v1708431626/RoboLeksikon/RoboLeksikon_logo_wuiewq.png"
+                        alt="Logo">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li>
+                            <a href="/index.html">Avaleht</a>
+                        </li>
+                        <li>
+                            <a href="/teenused.html">Teenused</a>
+                        </li>
+                        <li>
+                            <a href="/meist.html">Meist</a>
+                        </li>
+                        <li>
+                            <a href="/kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+                <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>
+                Kontakt
+            </h1>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="location">
+            <!-- <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1975.8985167433407!2d26.68053777603596!3d58.353066203689636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb376bf8d05fd5%3A0x81ac97562c28141d!2sAardla%20138%2C%2050415%20Tartu!5e0!3m2!1sen!2see!4v1692945679754!5m2!1sen!2see"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2091.9949976682765!2d26.769591976872544!3d58.37662122576059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb31329098c699%3A0xcafb2933cc365279!2sTartu%20Kristjan%20Jaak%20Petersoni%20Gymnasium!5e0!3m2!1sen!2see!4v1712902406069!5m2!1sen!2see" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+
+                    <div>
+                        <i class="fa-solid fa-house fa"></i>
+                        <span>
+                            <h2>Registreeritud aadressil:</h2>
+                            <h2>Kaunase pst 70, 50706 Tartus</h2>
+                        </span>
+                    </div>
+
+
+                    <div>
+                        <i class="fa-regular fa-envelope fa"></i>
+                        <span>
+                            <h2>roboleksikon@gmail.com</h2>
+                            <p>Saada meile kiri kui miskit jääb arusaamatuks</p>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="contact-col">
+                        <p>Aitäh, me kirjutame sulle kui toode valmis saab!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <p class="footer-title">Lisainfo</p>
+            <p class="footer-p">
+                Toode on veel arenduses! Kui teile pakub see huvi siis jätke meile oma meili aadress kontakti lehel.
+            </p>
+            <p class="footer-p">
+                © Copyright 2024 roboleksikon.ee
+            </p>
+
+        </section>
+    </footer>
+
+
+    <script src="/js/toggleMenu.js"></script>
+</body>
+
+</html>
